@@ -1,60 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>Giphtastic App</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-	<!-- Custom CSS stylesheet -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-	<!-- add link to the jQuery Library -->
-	<script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+  <meta charset="utf-8">
+  <title>Giphy API - week 6</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Javascript game.js -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
 </head>
+
 <body>
+  <div class="container">
+    <h1 id="animefavorites">Favorite Anime Shows</h1>
+  
+    <!-- Anime buttons will get here -->
+    <div id="animebuttons"></div>
 
+    <div id="anime-input-box">
+      <form id= "anime-form">
+        <label for="anime-input">Add Anime Show</label>
+        <input type="text" id="anime-input"><br>
+        <!-- button triggers new anime to be added -->
+        <input id="add-anime" type="submit" value="Submit">
+      </form>
+    </div>
+    <!-- Anime Shows will get to show here-->
+    <div id="animeview"></div>
+  </div>
 
-<div class="container-fluid">
-
-<h1>Giphtastic Giphy Search</h1>
-
-	<p>Click any of the buttons below to load 10 Gifs <br> 
-	Click on each gif image to play and stop them.
-	You can add your own buttons by entering a topic in the box below.</p>
-
-	<!-- Rendered Buttons will get Dumped Here  -->
-
-	<div id="topicsView"></div>
-	
-	<form id="topicForm">
-		 <div class="form-group">
-		 	<div class="row">
-			 	<div class="col-xs-4">
-					<label for="topicInput">Add a Topic to the buttons above</label>
-
-					
-					<input type="text" id="topicInput" class="form-control" placeholder="Enter new topic">
-
-					<!-- Button triggers new topic to be added -->
-					<input id="addTopic" type="submit" value="Submit">
-					
-				</div>
-			</div>
-
-		</div>
-
-		
-	
-	</form>
-
-   <!-- Gifs go here-->
-	<div id="gifView"></div>
-
-	</div>
-
-<!-- Link to the javascript app -->
-	<script type="text/javascript" src="assets/javascript/app.js"></script>
+<div class="footer">
+  &copy;Copyright 2018 Meenal Subramanian
+</div>
 </body>
 </html>

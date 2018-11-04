@@ -1,29 +1,88 @@
-@import url('https://fonts.googleapis.com/css?family=Spicy+Rice');
-
-h1 {
-	font-family: 'Spicy Rice', cursive;
-	font-size: 50px;
-	margin-bottom: 10px;
-
+body {
+	background-color: #70fffd;
+	color: #7075ff;
 }
 
-.topicButton{
-	margin: 5px;
+
+html {
+	border: 20px solid;
+	border-image: url("../images/border.jpg") 30 round;
+	min-height: 100%;
+}
+#animefavorites {
+	font-style: italic;
+	font-size: 36px;
 }
 
-body{
-  background: url('../images/gplay-pattern.png')
-
+.container {
+	opacity: 1;
+	margin-left: 35px;
 }
 
-#topicInput{
-	margin-bottom: 5px;
+button {
+    margin: 5px;
+    background-color: #a7ffa4;
+    color: black;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: #ffef97;
+    border-radius: 5px;
 }
 
-#addTopic{
-	margin-bottom: 20px;
+#anime-input-box {
+	float: right;
+	padding-right: 10%;
 }
 
-p{
+label {
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+#add-anime {
+	padding: 5px 10px 5px 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color: #ff3679;
+	color: white;
+}
+
+#anime-input {
+	margin-top: 10px;
+	height: 20px;
+}
+
+#animeview {
+	margin-top: 10px;
+	margin-right: 25%;
+}
+
+.animepictures {
+	float: left;
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h2 {
+	margin-top: 5px;
+    margin-bottom: 15px;
 	font-size: 20px;
+	font-weight: bold;
+	color: #a8a3ff;
+}
+
+.footer {
+	background: #e9ff41;
+    padding: 5px 0;
+    text-align: center;
+    color: #6299ff;
+    font-size: 16px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
 }
