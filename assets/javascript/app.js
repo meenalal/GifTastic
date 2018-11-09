@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	// Initial array of animes
-	var animes = ["Sailor Moon Crystal", "Fairy Tail", "Yowamushi", "kuroko no basket", "Chihayafuru", "Yona of the Dawn", "Blue Exorcist"];
+	var animes = ["friend", "with", "bff", "Friendship", "Best Friends", "Babies"];
 
 	// displayAnimeShow function re-renders the HTML to display the appropriate content
 	function displayAnimeShow() {
