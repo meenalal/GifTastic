@@ -1,88 +1,155 @@
+
 body {
-	background-color: #70fffd;
-	color: #7075ff;
-}
-
-
-html {
-	border: 20px solid;
-	border-image: url("../images/border.jpg") 30 round;
-	min-height: 100%;
-}
-#animefavorites {
-	font-style: italic;
-	font-size: 36px;
+	background: url(../images/background4.jpg);
+	background-position: 0px 400px;
+	background-size: 100%;
 }
 
 .container {
-	opacity: 1;
-	margin-left: 35px;
+	width: 80%;
+	position: absolute;
+	top: 580px;
+	left: 10%;
+	padding-bottom: 90px;
 }
 
-button {
-    margin: 5px;
-    background-color: #a7ffa4;
-    color: black;
-    font-size: 12px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-color: #ffef97;
-    border-radius: 5px;
+.jumbotron {
+	background: url(../images/background3.jpg) center center no-repeat;
+	height: 400px;
 }
 
-#anime-input-box {
-	float: right;
-	padding-right: 10%;
+.individual-gifs {
+	float: left;
+	margin: 10px;
 }
 
-label {
-	font-size: 25px;
-	font-weight: bolder;
+.introduction { 
+    display: block;
+    background: #004d80;
+    border-style: inset;
+    border-width:4px;
+    border-color: #0099ff;
+	color: white;
+    font-family: 'Vollkorn', serif;
+	font-weight: 300;
+	font-size: 13px;
+	letter-spacing: 1.5px;
+	text-align: center;
+    width: 100%;
+    height: 60px;
+	position: absolute;
+	top: 400px;
+    padding: 17px;
 }
 
-#add-anime {
-	padding: 5px 10px 5px 10px;
-	margin-top: 10px;
+.input-label {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #004d80;
+    font-family: 'Vollkorn', serif;
+}
+
+.disney-btn {
+	background:linear-gradient(to right, #0099ff 25%, #9999ff 100%);
 	border-radius: 5px;
-	background-color: #ff3679;
+	border: none;
+	padding: 10px 15px 10px 15px;
+	margin: 5px;
 	color: white;
 }
 
-#anime-input {
-	margin-top: 10px;
-	height: 20px;
+.disney-btn:hover {
+	background: #adadeb;
 }
 
-#animeview {
-	margin-top: 10px;
-	margin-right: 25%;
-}
-
-.animepictures {
-	float: left;
-	display: inline;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-h2 {
-	margin-top: 5px;
-    margin-bottom: 15px;
+.rating-text {
 	font-size: 20px;
+	color: black;
 	font-weight: bold;
-	color: #a8a3ff;
 }
 
-.footer {
-	background: #e9ff41;
-    padding: 5px 0;
-    text-align: center;
-    color: #6299ff;
-    font-size: 16px;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    position: fixed;
+.disney {
+	position: relative;
+	left: 0%;
+}
+
+#disney-buttons {
+	width: 100%;
+    font-family: 'Vollkorn', serif;
+	font-weight: 400;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+#add-movies {
+	background: linear-gradient(to right, #3399ff 25%, #99ccff 100%);
+	border: none;
+	color: white;
+	margin-top: 14px;
+	padding: 10px;
+	font-size: 18px;
+    font-family: 'Vollkorn', serif;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+}
+
+#add-movies:hover {
+	background: #375D75;
+}
+
+#sticky {
+   	position: fixed;    /*Here's what sticks it*/
+	bottom:0;          	/*to the bottom of the window*/
+	left:0;            /*and to the left of the window.*/
+	width: 100%;
+   	height: 40px;   /* Height of the footer */
+   	padding-top: auto;
+   	background:  #eeccff;
+   	text-align: center;
+   	color: white;
+    font-family: 'Vollkorn', serif;
+    font-weight: 300;
+	font-size: 13px;
+}
+
+.rating {
+    font-family: 'Vollkorn', serif;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+/* JUMBOTRON ELEMENTS */
+
+#title {
+	color: white;
+	text-align: center;
+	letter-spacing: 10px;
+	margin-top: 7%;
+    font-family: 'Vollkorn', serif;
+}
+
+/* #title-description {
+	color: white;
+	text-align: center;
+    font-family: 'Vollkorn', serif;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+} */
+
+#title-button {
+	text-align: center;
+    font-family: 'Vollkorn', serif;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	position: relative;
+	left: 43%;
+	background: linear-gradient(to right, #3399ff 25%, #99ccff 100%);
+	border: none;
+}
+
+#title-button:hover {
+	background: #375D75;
 }
