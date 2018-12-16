@@ -5,8 +5,6 @@ If you want to display a character or movie from disney of your own choice, you 
 
 BONUS! Click on 'The Full Experience' to play the theme song while you explore gifs. Enjoy!
 
-GIPHY Screenshot
+![GIPHY Screenshot](assets/images/readme1.png)
+![GIPHY Screenshot](assets/images/readme2.png)
 
-
-
-GIPHY Screenshot
